@@ -1,1 +1,2 @@
-print('hello gihub form my laptop')
+print('hello github from my laptop')
+print("hello from Github")
