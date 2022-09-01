@@ -1,0 +1,5 @@
+num1=0.112382479
+num2=0.893892839
+
+print("$"+str(round(num1,2)))
+print(round(num2,2))
