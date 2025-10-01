@@ -1,4 +1,0 @@
-Album= input(print("what album are you thinking of: "))
-Artist= input(print("who is th artist: "))
-
-print("album-"+Album, "Artist-"+Artist) 
