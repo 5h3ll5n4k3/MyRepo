@@ -1,8 +1,8 @@
-# 👨‍💻 About Me – Cybersecurity Professional & Builder
+# 👨‍💻 Cybersecurity Professional | Offensive Security Builder  
 
-Hi there 👋 I’m a cybersecurity professional passionate about automating security tasks, exploring offensive and defensive tooling, and building practical solutions for real-world challenges.
+Hey 👋 I’m a dedicated Multidisciplinary Operator with demonstrated proficiency in both offensive and defensive domains, leveraging hands-on experience who thrives on building, breaking, and automating. My repos focus on practical security tools, red team tactics, and labs for sharpening offensive and defensive tradecraft.  
 
-With a strong background in penetration testing, scripting, and red team simulation, I spend my time developing tools and proof-of-concepts that help educate and harden security posture — whether for enterprise defense, lab testing, or community learning.
+I like creating **realistic attack simulations** and **automation scripts** that help people learn how attackers operate — and how defenders can spot them.  
 
 ---
 
@@ -39,18 +39,13 @@ Most of these are **educational** and built for **authorized environments only**
 
 ## 🧰 Tools I Use Often
 
-- PowerShell / Python
+- PowerShell / Python / Bash
 - Kali Linux / Windows VMs
-- Rubber Ducky / Flipper Zero / Bash Bunny
-- Burp Suite / Nmap / BloodHound
+- Rubber Ducky / Flipper Zero / Wifi Pinapple
+- NetExec / Nmap / Hydra
 - Windows Event Logs & Sysmon for detection engineering
 
 ---
-
-## 🧩 Philosophy
-
-> *“Build like an attacker, think like a defender.”*  
-> I believe the best way to improve security is to understand how it's broken.
 
 Thanks for stopping by — feel free to explore my repositories, drop feedback, or suggest collaboration ideas!
 
