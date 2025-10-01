@@ -31,9 +31,8 @@ Most of these are **educational** and built for **authorized environments only**
 
 ## 🌐 Connect With Me
 
-- 💼 [LinkedIn](https://www.linkedin.com/) *(add your link)*
-- 🧠 [TryHackMe](https://tryhackme.com/) / [HackTheBox](https://www.hackthebox.com/) *(add your handles)*
-- 📧 [Email Me](mailto:you@example.com) for collaboration or ideas
+- 💼 [LinkedIn](https://www.linkedin.com/)
+- 🧠 [TryHackMe](https://tryhackme.com/) / [HackTheBox](https://www.hackthebox.com/) 
 
 ---
 
